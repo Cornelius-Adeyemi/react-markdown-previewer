@@ -1,0 +1,41 @@
+h2{
+    text-align: center;
+  
+}
+
+.login-div{
+    padding-top: 60px;
+}
+
+form{
+    padding-left: 200px;
+    display: block;
+    margin: auto;
+    padding-bottom: 5%;
+    width: 50%;
+
+    
+}
+
+label{
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+input{
+    height: 20px;
+    width: 60%;
+    
+}
+
+button{
+width: 61%;
+ height: 35px;
+ display: block;
+ cursor: pointer;
+ font-size: 20px;
+ background-color: rgb(233, 179, 78);
+ border: 3px solid rgb(240, 162, 18);
+}
+
