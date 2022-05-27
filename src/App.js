@@ -1,9 +1,9 @@
 import React, { useEffect, useRef } from 'react';
 import { marked } from 'marked';
 import "./App.css";
-import $ from 'jquery';
+
 import Prism from 'prismjs';
-import Highlight from 'react-highlight'
+
 
 
 marked.setOptions({
@@ -114,25 +114,20 @@ const placeHolder= `# Welcome to my React Markdown Previewer!
 ### And here's some other cool stuff:
 
 Heres some code, \`<div></div>\`, between 2 backticks.
-
 \`\`\`
 // this is multi-line code:
-
 function anotherExample(firstLine, lastLine) {
   if (firstLine == '\`\`\`' && lastLine == '\`\`\`') {
     return multiLineCode;
   }
 }
 \`\`\`
-
 You can also make text **bold**... whoa!
 Or _italic_.
 Or... wait for it... **_both!_**
 And feel free to go crazy ~~crossing stuff out~~.
-
 There's also [links](https://www.freecodecamp.org), and
 > Block Quotes!
-
 And if you want to get really crazy, even tables:
 
 Wild Header | Crazy Header | Another Header?
